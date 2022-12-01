@@ -5,17 +5,18 @@ public class VwGol {
     int qtdPortas;
     boolean ligado = false;
 
-    public static void montar() {
-        // Contexto static pertence a classe e não ao objeto
-        System.out.println("Montado!");
+    public VwGol(int anoFabricacao, String cor, int qtdPortas) {
+        this.anoFabricacao = anoFabricacao;
+        this.cor = cor;
+        this.qtdPortas = qtdPortas;
+    }
+
+    public  static VwGol montar() {
+        return new VwGol(2022,"Preto", 5);
     }
 
     public void ligar(){
         // Sem a palavra stratic o método pertence ao contexto do objeto e não da classe
         this.ligado = true;
-    }
-
-    public static void main(String[] args) {
-
     }
 }
