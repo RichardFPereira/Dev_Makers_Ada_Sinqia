@@ -1,13 +1,15 @@
 package docencia;
 
-import java.time.Instant;
 import java.time.LocalDate;
 
 public class Pessoa {
 
     private String nome;
+
     private String cpf;
+
     private float altura;
+
     private LocalDate dataNascimento;
 
     public Pessoa(String nome) {

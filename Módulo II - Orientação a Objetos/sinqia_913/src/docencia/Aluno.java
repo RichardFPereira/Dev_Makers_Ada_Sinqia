@@ -1,11 +1,11 @@
 package docencia;
 
+import veiculo.automotor.VeiculoAutomotor;
+
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class Aluno extends Pessoa{
-
-    private String nome;
+public class Aluno extends Pessoa {
 
     private String numeroMatricula;
 
@@ -21,16 +21,8 @@ public class Aluno extends Pessoa{
     }
 
     public Aluno(String nome) {
-        this.nome = nome;
+        super(nome);
         this.numeroMatricula = UUID.randomUUID().toString();
-    }
-
-    public String getNome() {
-        return this.nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public String getNumeroMatricula() {
@@ -50,7 +42,7 @@ public class Aluno extends Pessoa{
     }
 
     public void assistirAula(String disciplina) {
-        System.out.println("O aluno " + nome + " assistiu a aula de " +
+        System.out.println("O aluno " + getNome() + " assistiu a aula de " +
                 disciplina + " no curso de " + curso);
         darAtencaoAula();
     }
@@ -64,8 +56,15 @@ public class Aluno extends Pessoa{
     }
 
     protected void realizarAtividade(String displina, String atividade) {
-        System.out.println("O aluno " + nome + " realizou a atividade " +
+        System.out.println("O aluno " + getNome() + " realizou a atividade " +
                 atividade + " na disciplina " + displina + " no curso " + curso);
+    }
+
+    public void comprarVeiculo(VeiculoAutomotor veiculo) {
+        System.out.println("Parabéns");
+        veiculo.ligar();
+        veiculo.mover();
+        veiculo.desligar();
     }
 
 }

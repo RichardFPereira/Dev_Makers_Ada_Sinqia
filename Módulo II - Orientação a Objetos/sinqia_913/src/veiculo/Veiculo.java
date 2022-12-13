@@ -1,6 +1,6 @@
 package veiculo;
 
-public class Veiculo {
+public abstract class Veiculo {
 
     protected int anoFabricacao;
     private String cor;
@@ -21,5 +21,7 @@ public class Veiculo {
     public void setCor(String cor) {
         this.cor = cor;
     }
+
+    public abstract void mover();
 
 }

@@ -6,9 +6,7 @@ import veiculo.automotor.carro.Carro;
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class Professor extends Pessoa{
-
-    public String nome;
+public class Professor extends Pessoa {
 
     public String matricula;
 
@@ -21,7 +19,7 @@ public class Professor extends Pessoa{
     public ArrayList<Aluno> alunos = new ArrayList<>();
 
     public Professor(String nome, ArrayList<String> disciplinas) {
-        this.nome = nome;
+        super(nome);
         this.disciplinas = new ArrayList<>(disciplinas);
         this.matricula = UUID.randomUUID().toString();
     }
@@ -32,7 +30,7 @@ public class Professor extends Pessoa{
     }
 
     public void ministrarAula(String turma, String disciplina) {
-        System.out.println("O professor " + nome + " ministrou a aula de " +
+        System.out.println("O professor " + getNome() + " ministrou a aula de " +
                 disciplina + " na turma " + turma);
         for (Aluno aluno : this.alunos) {
             //Essa chamada só é possível devido ao aluno esta no mesmo pacote que o professor
@@ -41,7 +39,7 @@ public class Professor extends Pessoa{
     }
 
     public void corrirgirAtividade(String turma, String disciplina, String atividade) {
-        System.out.println("O professor " + nome + " corrigiu o atividade " +
+        System.out.println("O professor " + getNome() + " corrigiu o atividade " +
                 atividade + " da turma " + turma + " e disciplina " + disciplina);
     }
 
