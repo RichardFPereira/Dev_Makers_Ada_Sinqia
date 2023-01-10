@@ -1,11 +1,15 @@
 ---
+
 # Aula Inaugural
+
 ---
+
 ## Professor: Jackson Braga
 
 
 Início: 09/01
 Término: 30/01
+
 ---
 
 Conteúdo Programático:
