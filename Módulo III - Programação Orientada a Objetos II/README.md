@@ -29,5 +29,5 @@ __Conteúdo Programático:__
 - Aula 08 - SOLID - Interface Segregation
 
 - Aula 09 - SOLID - Dependency Inversion
-- 
+
 ---
