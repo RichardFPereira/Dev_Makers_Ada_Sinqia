@@ -12,7 +12,7 @@ Término: 30/01
 
 ---
 
-Conteúdo Programático:
+__Conteúdo Programático:__
 
 - Aula 02 - Interfaces
 
@@ -29,4 +29,5 @@ Conteúdo Programático:
 - Aula 08 - SOLID - Interface Segregation
 
 - Aula 09 - SOLID - Dependency Inversion
+- 
 ---
