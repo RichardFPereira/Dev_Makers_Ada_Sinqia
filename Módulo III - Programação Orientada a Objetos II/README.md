@@ -2,17 +2,20 @@
 
 # Aula Inaugural
 
+Neste módulo será dada continuação no estudo de orientação a objetos incluindo interfaces e princípios de SOLID.
+
 ---
 
 ## Professor: Jackson Braga
 
 
 Início: 09/01
+
 Término: 30/01
 
 ---
 
-__Conteúdo Programático:__
+## __Conteúdo Programático:__
 
 - Aula 02 - Interfaces
 
