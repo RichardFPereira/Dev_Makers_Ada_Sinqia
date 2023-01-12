@@ -1,14 +1,16 @@
+## <p style="text-align: center"> Aula Inaugural </p>
+
 ---
-#Aula Inaugural
----
-##Professor: Jackson Braga
+
+### Professor: Jackson Braga
 
 
 Início: 09/01
-Término: 30/01
----
 
-Conteúdo Programático:
+Término: 30/01
+
+
+### Conteúdo Programático:
 
 - Aula 02 - Interfaces
 
@@ -25,4 +27,21 @@ Conteúdo Programático:
 - Aula 08 - SOLID - Interface Segregation
 
 - Aula 09 - SOLID - Dependency Inversion
+
 ---
+
+## <p style="text-align: center"> Aula 02 - 11/01/2023 </p>
+
+---
+
+### Projeto final em grupo:
+
+- Aplicativo Bancário
+  - Entrega: 30/01
+  - Grupo 2: Felipe, Leonardo, Matheus Leite, Richard, Wesley
+
+### Projeto final individual:
+- Carrinho de Compras:
+  - Entrega: 26/01 até 23:59
+
+### Interfaces:
