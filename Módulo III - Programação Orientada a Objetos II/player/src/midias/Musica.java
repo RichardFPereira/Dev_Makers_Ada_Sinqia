@@ -1,4 +1,8 @@
 package midias;
 
-public class Musica {
+import interfaces.IMidia;
+
+import java.io.Serializable;
+
+public class Musica implements IMidia {
 }

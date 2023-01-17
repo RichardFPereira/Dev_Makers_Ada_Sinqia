@@ -3,11 +3,18 @@ package impl;
 import interfaces.IPlayList;
 import midias.Musica;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PlayListMusic implements IPlayList<Musica> {
+    private String nome;
     private String genero;
-    private List<Musica> musicas;
+    private List<Musica> musicas = new ArrayList<>();
+
+    public PlayListMusic(String nome, String genero) {
+        this.nome  = nome;
+        this.genero = genero;
+    }
 
     @Override
     public void add(Musica musica) {

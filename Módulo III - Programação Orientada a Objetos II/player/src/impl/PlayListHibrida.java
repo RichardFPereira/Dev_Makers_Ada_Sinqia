@@ -1,21 +1,23 @@
 package impl;
 
+import interfaces.IMidia;
 import interfaces.IPlayList;
-import midias.Video;
+import midias.Musica;
 
-public class PlayListVideo implements IPlayList<Video> {
+public class PlayListHibrida implements IPlayList<IMidia> {
+
     @Override
-    public void add(Video video) {
+    public void add(IMidia iMidia) {
 
     }
 
     @Override
-    public Video get() {
+    public IMidia get() {
         return null;
     }
 
     @Override
-    public void delete(Video video) {
+    public void delete(IMidia iMidia) {
 
     }
 
